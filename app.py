@@ -152,6 +152,7 @@ def hello():
     <p><strong>Deployed via:</strong> GitHub Actions + AWS SSM</p>
     <p><strong>Build Date:</strong> {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</p>
     <p><strong>Assignment:</strong> Automated EC2 Deployment</p>
+
     '''
 
 @app.route('/health')
